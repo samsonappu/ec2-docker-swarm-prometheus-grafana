@@ -1,0 +1,5 @@
+- name: "Install MetricBeat, Docker Metrics and AuditBeat"
+  hosts: all
+  roles:
+    - { role: filebeat }
+

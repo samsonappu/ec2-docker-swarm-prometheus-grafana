@@ -1,0 +1,9 @@
+---
+ - hosts: localhost
+   roles:
+   - ec2-provision
+
+
+
+
+

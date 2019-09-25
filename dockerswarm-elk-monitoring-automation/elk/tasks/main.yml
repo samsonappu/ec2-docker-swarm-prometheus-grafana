@@ -1,0 +1,5 @@
+- name: 'Copy a dockerswarm-elk-monitoring-automation/elk '
+  copy: {src: /opt/dockerswarm-elk-monitoring-automation/elk.sh, dest: /opt}
+        
+- name: 'Execute the script'
+  command: 'sh /opt/elk.sh'

@@ -1,0 +1,2 @@
+[elk]
+10.0.2.25 ansible_ssh_user=centos ansible_become=yes
