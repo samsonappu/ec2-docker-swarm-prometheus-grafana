@@ -1,5 +1,0 @@
-- name: "Install ELK"
-  hosts: all
-  roles:
-    - { role: elk }
-
