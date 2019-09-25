@@ -1,0 +1,8 @@
+---
+# tasks file for filebeat
+
+- name: 'Copy a dockerswarm-elk-monitoring-automation/elk '
+  copy: {src: /opt/dockerswarm-elk-monitoring-automation/filebeat.sh, dest: /opt}
+
+- name: 'Execute the script'
+  command: 'sh /opt/filebeat.sh'
